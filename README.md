@@ -1,4 +1,4 @@
-# Nexus Studio (AutoGen Studio + TensorRT-LLM)
+# Nexus Studio (AutoGen + TensorRT-LLM)
 
 ### Dependencies
 - Set up TensorRT-LLM OpenAI project(https://github.com/NVIDIA/trt-llm-as-openai-windows) in another location, launch at port:8081
