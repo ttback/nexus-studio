@@ -8,7 +8,7 @@ The core idea of Nexus Studio is using AutoGen with local LLM on TensorRT-LLM an
 - Most of front-end from autogen-studio is built and included with the repo
 - Python deps need to be installed
 
-The env variables are setup at autogenstudio/env.py. The API keys are NOT required to run the application, but may be required for certain API-related skills
+The env variables are setup at `autogenstudio/env.py`. The API keys are NOT required to run the application, but may be required for certain API-related skills
 
 ```bash
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ Nexus Studio proposes some high-level concepts.
 
 **Skills**: Skills are functions (e.g., Python functions) that describe how to solve a task. In general, a good skill has a descriptive name (e.g. `generate_images`), extensive docstrings and good defaults (e.g., writing out files to disk for persistence and reuse). You can add new skills Nexus Studio app via the provided UI. At inference time, these skills are made available to the assistant agent as they address your tasks.
 
-Included custom skills for Nexus Studio: 
+**Included custom skills for Nexus Studio:** 
 - launch_omniverse: Launch omniverse launcher if installed.
 - test local llm on tensorrt: Launch test script against TensorRT-LLM + OpenAI proxy
 - look up GTC event details with RAG: This is a sample skill to leverage Nvidia-API provided embeddings instead of sentence-transformer or openai embeddings
