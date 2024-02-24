@@ -1,7 +1,7 @@
 # Nexus Studio (AutoGen + TensorRT-LLM)
 Dev Contest project for Nvidia Gen AI on RTX PCs Developer Contest
 
-The core idea of Nexus Studio is using AutoGen with local LLM on TensorRT-LLM and allow chatbots to use custom batch script + Desktop tools and remote APIs from Nvidia as skills.
+The core idea of Nexus Studio is using AutoGen with local LLM on TensorRT-LLM and allow chatbots to use custom batch script + Desktop tools and remote APIs from Nvidia as skills. The flexibility of AutoGen also allows TensorRT-LLM to be deployed as either the primary LLM model, a skill/tool, or as one of supporting AI assistant in a group with larger remote LLMs.
 
 ### Dependencies
 - Set up TensorRT-LLM OpenAI project(https://github.com/NVIDIA/trt-llm-as-openai-windows) in another location, launch at port:8081. (If any questions, working version on RTX4080 + Windows 11 can be shared)
