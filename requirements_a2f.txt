@@ -1,0 +1,6 @@
+grpcio==1.51.3
+numpy==1.22.4
+scipy==1.8.1
+sounddevice==0.4.2
+protobuf==3.17.3
+soundfile==0.12.1
