@@ -48,6 +48,14 @@ If any Skills script throw a dependency error, install other requirements.txt fi
 Once installed, run the web UI by entering the following in your terminal:
 
 ```bash
+git clone git@github.com:ttback/nexus-studio.git
+cd nexus-studio
+.\run.bat
+```
+
+or 
+
+```bash
 autogenstudio ui --port 8088
 ```
 
